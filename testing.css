@@ -1,0 +1,42 @@
+/* Задание 5 */
+[data-role="buttons"] button:not(:nth-last-child(1)):not(:first-child) {
+	background-color: #EA1432C9;
+}
+
+/* Задание 6 */
+table {
+	background-color: yellow;
+	border-collapse: collapse;
+}
+
+table tbody{
+	border-top: 1px solid red;
+}
+table td {
+	padding: 0 10px;
+}
+
+/* Задание 7 */
+#btn1, #btn2 {
+	height: 30px;
+	color: #EAC600;
+	background-color: #222A35;
+	border: 1px solid #EAC600;
+	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+	border-radius: 10px;
+}
+
+#btn1:hover{
+	transition: all ease 0.2s;
+	cursor: pointer;
+	background-color: #4308B9;
+	transform: translateY(-2px);
+}
+
+#btn1:focus {
+	transition: all ease .2s;
+	pointer-events:none;
+	color:#AAA;
+    background-color:#D8DAE2;
+    cursor: not-allowed;
+}
